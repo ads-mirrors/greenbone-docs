@@ -9,3 +9,4 @@ jobs:
   auto-merge:
     uses: greenbone/workflows/.github/workflows/auto-merge.yml@main
     secrets: inherit
+    mode: squash
